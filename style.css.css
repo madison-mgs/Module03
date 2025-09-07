@@ -1,0 +1,88 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+  margin: 40px;
+  color: #000;
+  background-image: url("WidgetCoLogo.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.95; /* slight transparency for background */
+}
+
+/* Header */
+header {
+  text-align: center;
+  font-size: 0.9em;
+  font-variant: small-caps; /* FIX: small caps */
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding-bottom: 4px;
+}
+
+/* Sidebar (Press Contact) */
+aside {
+  float: right;
+  width: 250px;
+  font-size: 0.9em;
+  text-align: right;
+  border-right: 12px solid #43ec19; 
+  padding: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* Main Headline */
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: left; 
+}
+
+/* Subheading */
+h2 {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.9em;
+  margin: 15px;
+}
+
+/* Article Paragraphs */
+article p {
+  text-align: justify; 
+  margin-bottom: 1.5em; 
+}
+
+/* Green Highlight Box */
+section {
+  border: 2px solid #2c094d;
+  border-left: 20px solid #2c094d;
+  background-color: hsl(72, 100%, 92%);
+  padding: 5px;
+  font-size: 0.95em;
+  margin: 5px;
+}
+
+/* Links */
+a {
+  color: rgb(87, 87, 87);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  font-size: 0.8em;
+  color: #555;
+  text-align: right;
+  border-top: 1px solid #aaa;
+  margin-top: 30px;
+  padding-top: 5px;
+  font-style: italic; 
+}
